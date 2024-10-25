@@ -1,58 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="header">
-      <div id="container">
-        <nav>
-          <h1>Sanjana</h1>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-        <div class="header-text">
-          <p>Student</p>
-          <h1>
-            Hi, I am Sanjana Panchal.
-            <h2>Currently Pursuing BSc.IT 3rd year at Rai University.</h2>
-          </h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMAZON</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header>
+        <!-- navbar divs -->
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+        
+            
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search border">
+                <select class="search-select">
+                    <option>ALL</option>
+                </select>
+                <input placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-signin border">
+                <p><span>Hello, signin</span></p>
+                <p class="nav-second">Accounts & Lists</p>
+            </div>
+
+            <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <p class="nav-second"> & Orders</p>
+            </div>
+
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>  
+        
+        <!-- panel below the navbar -->
+        <div class="panel">
+            <!-- DIV1 : menu option mate panel-all name -->
+              <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                ALL
+              </div>
+              <!-- DIV2 : options -->
+              <div class="panel-ops">
+                 <p>Today's Deals</p>
+                 <p>Customer Service</p>
+                 <p>Registry</p>
+                 <p>Gift Cards</p>
+                 <p>Sell</p>
+              </div>
+              <!-- DIV3 -->
+              <div class="panel-deals">
+                Shop deals in Electronics
+              </div>
         </div>
-      </div>
-    </div>
-
-    <!-- about section -->
-    <div class="about">
-      <div class="container">
-        <div class="row">
-          <div class="about-col-1">
-            <img src="pic.jpg" />
+     </header>
+    <!-- background-image -->
+     <div class="hero-section">
+         <!-- a slogan line -->
+         <div class="hero-msg">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. 
+            <a>Click here to go to amazon.in</a></p>
+         </div>
+     </div>
+     <!-- shopping items divs -->
+     <div class="shop-section">
+        <div class="box box">
+          <div class="box-content">
+            <h2>Health & Personal Care</h2>
+            <div class="box-image" style="background-image: url('boximg1.jpg');"></div>
+            <p>See more</p>
           </div>
+        </div>
+        <div class="box box">
+            <div class="box-content">
+                <h2>Flowers Section</h2>
+                <div class="box-image" style="background-image: url('box1.jpeg');"></div>
+                <p>See more</p>
+              </div>
+        </div>
+        <div class="box box">
+            <div class="box-content">
+                <h2>Nature-Trees</h2>
+                <div class="box-image" style="background-image: url('box2.avif');"></div>
+                <p>See more</p>
+              </div>
+        </div>
+        <div class="box box">
+            <div class="box-content">
+                <h2>Foggy-nature</h2>
+                <div class="box-image" style="background-image: url('box3.avif');"></div>
+                <p>See more</p>
+              </div>
+        </div>
 
-          <div class="about-col-2">
-            <h1 class="sub-title">About Me</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-              commodi tempora, obcaecati doloremque itaque laborum adipisci
-              magnam quaerat impedit, veritatis quasi facilis! Debitis optio
-              quis possimus veritatis? Incidunt, repellat deleniti?
-            </p>
-            <div class="tab-titles">
-              <p class="tab-linkes active-link">Skills</p>
-              <p class="tab-lines">Experience</p>
-              <p class="tab-lines">Education</p>
+        <div class="box box">
+            <div class="box-content">
+              <h2>Calm Nature</h2>
+              <div class="box-image" style="background-image: url('box4.avif');"></div>
+              <p>See more</p>
             </div>
           </div>
+          <div class="box box">
+              <div class="box-content">
+                  <h2>Sunset</h2>
+                  <div class="box-image" style="background-image: url('box5.avif');"></div>
+                  <p>See more</p>
+                </div>
+          </div>
+          <div class="box box">
+              <div class="box-content">
+                  <h2>Northan lights</h2>
+                  <div class="box-image" style="background-image: url('box6.avif');"></div>
+                  <p>See more</p>
+                </div>
+          </div>
+          <div class="box box">
+              <div class="box-content">
+                  <h2>Aurora lights</h2>
+                  <div class="box-image" style="background-image: url('box7.avif');"></div>
+                  <p>See more</p>
+                </div>
+          </div>
+     </div>
+
+<!-- footer-->
+
+     <footer>
+        <div class="foot-panel1">
+            Back to Top
         </div>
-      </div>
-    </div>
-    <script src="script.js"></script>
-  </body>
+
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a> About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a> About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a> About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a> About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+        </div>
+
+        <div class="foot-panel3">
+            <div class="logo"></div>
+        </div>
+
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Condition of Use</a>
+                <a>Privacy Notice</a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                © 1996-2024, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+     </footer>
+</body>
 </html>
